@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/second/second"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF0F0",
+    
+    "navigationBarTitleText": "心率检测",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序需要获取你的位置信息"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap65.json"
+}
