@@ -1,0 +1,38 @@
+<view class="time">{{logs}}</view>
+<button class='goodButton' bindtap="bindViewTap" >
+<text class="heart">你的心率</text></button>
+<view class="container">
+<view class="location">{{province}}{{city}}</view>
+<!-- <picker mode="region" bindchange="change">
+<view>{{region}}</view>
+</picker> -->
+
+<text>{{now.tmp}}℃ {{now.cond_txt}}</text>
+
+<image src="/images/{{now.cond_code}}.png"></image>
+
+<view class="detail">
+ <view class="bar">
+  <view class="box">湿度</view>
+  <view class="box">气压</view>
+  <view class="box">能见度</view>
+ </view>
+ <view class="bar">
+  <view class="box">{{now.hum}}</view>
+  <view class="box">{{now.pres}}</view>
+  <view class="box">{{now.vis}}</view>
+ </view>
+ <view class="bar">
+  <view class="box">风向</view>
+  <view class="box">风速</view>
+  <view class="box">风力</view>
+ </view>
+ <view class="bar">
+  <view class="box">{{now.wind_dir}}</view>
+  <view class="box">{{now.wind_spd}}</view>
+  <view class="box">{{now.wind_sc}}</view>
+ </view>
+</view>
+</view>
+<view class="bg"></view>
+
